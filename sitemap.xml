@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://swz128.top/post/BCY.html</loc>
+    
+    <lastmod>2021-09-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://swz128.top/post/NCL.html</loc>
     
     <lastmod>2019-11-30</lastmod>
@@ -27,6 +36,48 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://swz128.top/tags/%E6%B2%B9%E7%8C%B4/</loc>
+    <lastmod>2021-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://swz128.top/tags/%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2021-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://swz128.top/tags/Chrome/</loc>
+    <lastmod>2021-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://swz128.top/tags/Firefox/</loc>
+    <lastmod>2021-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://swz128.top/tags/Tampermonkey/</loc>
+    <lastmod>2021-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://swz128.top/tags/%E5%8D%8A%E6%AC%A1%E5%85%83/</loc>
+    <lastmod>2021-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://swz128.top/tags/NCL/</loc>
@@ -50,6 +101,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://swz128.top/categories/%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2021-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://swz128.top/categories/%E6%95%99%E7%A8%8B/</loc>
