@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://swz128.top/baidu_verify_code-UgArjQotqi.html</loc>
+    
+    <lastmod>2021-11-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://swz128.top/about/index.html</loc>
     
     <lastmod>2021-11-02</lastmod>
@@ -89,27 +98,6 @@
   </url>
   
   <url>
-    <loc>https://swz128.top/tags/NCL/</loc>
-    <lastmod>2021-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://swz128.top/tags/Linux/</loc>
-    <lastmod>2021-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://swz128.top/tags/Windows/</loc>
-    <lastmod>2021-11-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://swz128.top/tags/docker/</loc>
     <lastmod>2021-11-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -132,6 +120,27 @@
   
   <url>
     <loc>https://swz128.top/tags/easy-wrf/</loc>
+    <lastmod>2021-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://swz128.top/tags/NCL/</loc>
+    <lastmod>2021-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://swz128.top/tags/Linux/</loc>
+    <lastmod>2021-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://swz128.top/tags/Windows/</loc>
     <lastmod>2021-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
