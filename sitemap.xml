@@ -116,27 +116,6 @@
   </url>
   
   <url>
-    <loc>https://swz128.top/tags/NCL/</loc>
-    <lastmod>2021-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://swz128.top/tags/Linux/</loc>
-    <lastmod>2021-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://swz128.top/tags/Windows/</loc>
-    <lastmod>2021-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://swz128.top/tags/Node-js/</loc>
     <lastmod>2021-11-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -201,6 +180,27 @@
   
   <url>
     <loc>https://swz128.top/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://swz128.top/tags/NCL/</loc>
+    <lastmod>2021-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://swz128.top/tags/Linux/</loc>
+    <lastmod>2021-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://swz128.top/tags/Windows/</loc>
     <lastmod>2021-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
