@@ -6,7 +6,7 @@
   <link href="https://swz128.top/atom.xml" rel="self"/>
   
   <link href="https://swz128.top/"/>
-  <updated>2021-11-10T16:00:00.000Z</updated>
+  <updated>2022-03-28T09:00:00.000Z</updated>
   <id>https://swz128.top/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac 上 matplotlib 中文乱码问题</title>
+    <link href="https://swz128.top/post/PlotZh.html"/>
+    <id>https://swz128.top/post/PlotZh.html</id>
+    <published>2022-03-28T09:00:00.000Z</published>
+    <updated>2022-03-28T09:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Mac-上-matplotlib-中文乱码问题"><a href="#Mac-上-matplotlib-中文乱码问题" class="headerlink" title="Mac 上 matplotlib 中文乱码问题"></a>Mac 上 matplotlib 中文乱码问题</h1><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><ol><li><p>首先查找系统已安装的字体。打开系统应用「字体册」</p></li><li><p>找到满意的字体，这里我们以「苹方」为例，然后点击 <strong>在访达中显示</strong></p></li></ol><p><img src="https://img.swz128.top/PlotZh_File/02.png"></p><ol start="3"><li>在这里可以看到该字体文件的名称，例如「苹方」的名称为 <code>PingFang.ttc</code></li></ol><p><img src="https://img.swz128.top/PlotZh_File/03.png"></p><ol start="4"><li>修改matplotlib的一个配置文件，文件在 <code>~/.matplotlib/</code> 中，我的名称是 <code>fontlist-v330.json</code> 根据版本不同，可能有变化</li></ol><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">vim ~&#x2F;.matplotlib&#x2F;fontlist-v330.json</code></pre><ol start="5"><li>搜索 <code>ttflist</code> 字段</li></ol><pre class="line-numbers language-none"><code class="language-none">&#x2F;ttflist</code></pre><ol start="6"><li>在这个列表中新增：</li></ol><pre class="line-numbers language-json" data-language="json"><code class="language-json">&#123;   &quot;fname&quot;: &quot;&#x2F;System&#x2F;Library&#x2F;Fonts&#x2F;PingFang.ttc&quot;,   &quot;name&quot;: &quot;PingFang&quot;,   &quot;style&quot;: &quot;normal&quot;,   &quot;variant&quot;: &quot;normal&quot;,   &quot;weight&quot;: 400,   &quot;stretch&quot;: &quot;normal&quot;,   &quot;size&quot;: &quot;scalable&quot;,   &quot;__class__&quot;: &quot;FontEntry&quot;&#125;,</code></pre><p><img src="https://img.swz128.top/PlotZh_File/04.png"></p><ol start="7"><li><p>保存退出 <code>:wq</code></p></li><li><p>测试</p></li></ol><pre class="line-numbers language-python" data-language="python"><code class="language-python">import matplotlib.pyplot as pltplt.rcParams[&quot;font.sans-serif&quot;]&#x3D;[&quot;PingFang&quot;] #设置字体plt.rcParams[&quot;axes.unicode_minus&quot;]&#x3D;False #正常显示负号year &#x3D; [2017, 2018, 2019, 2020]people &#x3D; [20, 40, 60, 70]#生成图表plt.plot(year, people)plt.xlabel(&#39;年份&#39;)plt.ylabel(&#39;人口&#39;)plt.title(&#39;人口增长&#39;)#设置纵坐标刻度plt.yticks([0, 20, 40, 60, 80])#设置填充选项：参数分别对应横坐标，纵坐标，纵坐标填充起始值，填充颜色plt.fill_between(year, people, 20, color &#x3D; &#39;green&#39;)#显示图表plt.show()</code></pre><p><img src="https://img.swz128.top/PlotZh_File/05.png"></p><p>大功告成！</p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://www.jianshu.com/p/c855bae924ce">解决python中matplotlib中文乱码 for Mac</a></p><h2 id="版权声明"><a href="#版权声明" class="headerlink" title="版权声明"></a>版权声明</h2><ul><li>作者：麟子</li><li>地址：<a href="https://swz128.top/post/plotzh">https://swz128.top/post/plotzh</a></li><li>协议：<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 欢迎转载，务必注明出处</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Mac-上-matplotlib-中文乱码问题&quot;&gt;&lt;a href=&quot;#Mac-上-matplotlib-中文乱码问题&quot; class=&quot;headerlink&quot; title=&quot;Mac 上 matplotlib 中文乱码问题&quot;&gt;&lt;/a&gt;Mac 上 matplotlib </summary>
+      
+    
+    
+    
+    <category term="记录" scheme="https://swz128.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="Mac" scheme="https://swz128.top/tags/Mac/"/>
+    
+    <category term="matplotlib" scheme="https://swz128.top/tags/matplotlib/"/>
+    
+    <category term="python" scheme="https://swz128.top/tags/python/"/>
+    
+    <category term="中文" scheme="https://swz128.top/tags/%E4%B8%AD%E6%96%87/"/>
+    
+  </entry>
   
   <entry>
     <title>npm 配置及常用命令</title>
